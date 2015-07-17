@@ -2,7 +2,7 @@
 
 #git clone vimrc
 cd
-git clone git://github.com/dustin0329/vimrc.git ~/.vim
+git clone https://github.com/dustin0329/vimrc.git ~/.vim
 cd ~/.vim
 git submodule update --init
 
@@ -15,7 +15,7 @@ make
 
 #git clone profile
 cd
-git clone git://github.com/dustin0329/profile.git ~/.profile
+git clone https://github.com/dustin0329/profile.git ~/.profile
 cd ~/.profile
 
 ./install-profile.sh
@@ -23,5 +23,5 @@ cd ~/.profile
 
 #git clone wrk
 cd
-git clone git://github.com/dustin0329/wrk.git ~/wrk
+git clone https://github.com/dustin0329/wrk.git ~/wrk
 
