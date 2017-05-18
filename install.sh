@@ -15,8 +15,8 @@ make
 
 #git clone profile
 cd
-git clone https://github.com/dustin0329/profile.git ~/.profile
-cd ~/.profile
+git clone https://github.com/dustin0329/profile.git ~/.profile_user
+cd ~/.profile_user
 
 ./install-profile.sh
 
