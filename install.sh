@@ -15,13 +15,13 @@
 
 #git clone profile
 cd
-git clone https://github.com/dustin0329/profile.git ~/.profile_user
-cd ~/.profile_user
+git clone https://github.com/dustin0329/profile.git ~/github_profile_user
+cd ~/github_profile_user
 
 ./install-profile.sh
 
 
 #git clone wrk
 cd
-git clone https://github.com/dustin0329/wrk.git ~/wrk
+git clone https://github.com/dustin0329/wrk.git ~/github_wrk
 
