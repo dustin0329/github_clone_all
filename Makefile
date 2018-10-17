@@ -11,7 +11,7 @@ update:
 	cd ~/github_$(FOLDER_3); git status
 
 commit_push:
-	cd ~/github_$(FOLDER_1); git commit -m "update" -a; git push
-	cd ~/github_$(FOLDER_2); git commit -m "update" -a; git push
-	cd ~/github_$(FOLDER_3); git commit -m "update" -a; git push
+	cd ~/github_$(FOLDER_1); git commit -a -m "update"; git push
+	cd ~/github_$(FOLDER_2); git commit -a -m "update"; git push
+	cd ~/github_$(FOLDER_3); git commit -a -m "update"; git push
 
